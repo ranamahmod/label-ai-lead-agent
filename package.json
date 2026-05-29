@@ -1,0 +1,23 @@
+{
+  "name": "label-ai-lead-agent",
+  "version": "1.0.0",
+  "description": "A Node.js Express server that receives leads from Make.com, classifies them using Claude AI, saves them to Notion, and nurtures hot/warm leads via MailerLite.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.100.1",
+    "@google/generative-ai": "^0.24.1",
+    "@notionhq/client": "^5.22.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.2.1"
+  }
+}
