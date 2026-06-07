@@ -1,4 +1,4 @@
-# The Label - AI Studios | Lead Generation Agent
+# Rana Mahmod | Lead Generation Agent
 
 A Node.js Express server that receives leads from Make.com, classifies them using Claude AI, saves them to Notion, and nurtures hot/warm leads via MailerLite.
 
@@ -86,7 +86,7 @@ npm start
 ```json
 {
   "classification": "hot",
-  "reply": "Hi Maria! Thank you for reaching out to The Label - AI Studios..."
+  "reply": "Hi Maria! Thank you for reaching out to Rana Mahmod..."
 }
 ```
 
